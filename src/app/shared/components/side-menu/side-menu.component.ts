@@ -15,11 +15,13 @@ interface MenuItem {
 export class SideMenuComponent {
 
   public reactiveMenu: MenuItem[] = [
-    {title: 'Basicos', route: './reactive/basic'},
-    {title: 'Dinámicos', route: './reactive/dynamic'},
-    {title: 'Switches', route: './reactive/switches'},
-  ]
+    { title: 'Básicos', route: './reactive/basic' },
+    { title: 'Dinámicos', route: './reactive/dynamic' },
+    { title: 'Switches', route: './reactive/switches' },
+  ];
+
   public authMenu: MenuItem[] = [
-    {title: 'Registro', route: './auth'},
-  ]
+    { title: 'Registro', route: './auth' },
+  ];
+
 }
